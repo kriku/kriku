@@ -25,7 +25,8 @@ Sometimes it calls ON and OFF state.
 #### Direct pins
 
 First solution in our list is direct pin connection.
-![direct-pin](./images/direct-pin.png)
+
+<img src="/kriku/kriku/raw/main/projects/keyboard/images/direct-pin.png" height="100px">
 
 Buttons create contact between input pin of MCU and GND. 
 
@@ -41,7 +42,7 @@ Solution is pretty straightforward - use
 [pull-up resistors](https://learn.sparkfun.com/tutorials/pull-up-resistors/all) (or pull-down)
 on each switch.
 
-![direct-pin-pull-up](./images/direct-pin-pull-up.png)
+<img src="/kriku/kriku/raw/main/projects/keyboard/images/direct-pin-pull-up.png" height="100px">
 
 Second one is "contact bounce".
 
@@ -51,7 +52,7 @@ With MCU and amount of keyboard firmwares available open source - looks like sof
 
 The problem with this schematic - we need unique pin and pull-up/down resistor for each button.
 
-![direct-pins](./images/direct-pins.png)
+<img src="/kriku/kriku/raw/main/projects/keyboard/images/direct-pins.png" height="100px">
 
 #### Simple matrix
 
@@ -59,7 +60,7 @@ Widely spread solution among keyboard enthusiasts.
 
 It's kind of easy to come up with.
 
-![matrix](./images/matrix.png)
+<img src="/kriku/kriku/raw/main/projects/keyboard/images/matrix.png" height="100px">
 
 #### Not that simple matrices
 
